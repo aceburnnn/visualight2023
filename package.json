@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "chart.js": "^4.3.0",
+    "holt-winters": "^0.0.0",
+    "tsla": "^1.0.2"
+  }
+}

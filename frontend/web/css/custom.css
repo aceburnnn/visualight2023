@@ -1,0 +1,22 @@
+.error-message {
+    color: red;
+}
+
+.has-error .help-block {
+    color: white; /* Font color for error messages */
+    background-color: #ff0040; /* Background color for error messages */
+    border: 1px solid #d9534f; /* Optional: Add a red border around error messages */
+    padding: 8px; /* Optional: Add some padding around the error messages */
+    border-radius: 4px; /* Optional: Add rounded corners to the error messages */
+    margin-top: 5px;
+    font-size: 14px; /* Optional: Adjust the font size for error messages */
+    font-weight: bold; /* Optional: Make the error messages bold */
+}
+
+.has-error .help-block:before {
+    content: '\f06a'; /* Optional: Add a Font Awesome icon (exclamation circle) before the error message */
+    font-family: 'Font Awesome 5 Free'; /* Optional: Replace with the appropriate Font Awesome font-family */
+    margin-right: 5px; /* Optional: Add some spacing between the icon and the error message */
+    font-size: 16px; /* Optional: Adjust the icon size */
+    font-weight: bold; /* Optional: Make the icon bold */
+}

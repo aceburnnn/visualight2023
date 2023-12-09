@@ -1,0 +1,36 @@
+/* backend/web/css/user-index.css */
+
+/* Set the background color of the table to white */
+.table {
+    background-color: #ffffff;
+    border-radius: 10px; /* Add border-radius to set rounded corners */
+}
+
+/* Set the background color of the table header to blue */
+.table thead tr th {
+    background-color: #007bff;
+    color: #ffffff; /* Set the text color to white for better visibility */
+}
+
+/* Set the background color of the table data cells to white */
+.table tbody tr td {
+    background-color: #ffffff;
+}
+
+
+/* CSS for the View Page */
+.user-view {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* CSS for the View Page Table */
+.user-view table {
+    background-color: white;
+}
+
+/* Optional: Add some spacing between the table cells */
+.user-view table td, .user-view table th {
+    padding: 8px;
+}
